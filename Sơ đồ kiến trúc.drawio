@@ -1,9 +1,15 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Trang-1" id="2vunLhqWxKRPeHTe-euI">
-    <mxGraphModel dx="984" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1158" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="So0jfg-_-XGiYHcbXvTn-3" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.user;" value="" vertex="1">
+          <mxGeometry height="170" width="170" x="328" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="So0jfg-_-XGiYHcbXvTn-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=30;" value="Client Tier&#xa;[Next.js, Tailwind v4]" vertex="1">
+          <mxGeometry height="78" width="342.5" x="242" y="290" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
