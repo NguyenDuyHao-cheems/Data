@@ -1,14 +1,82 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Trang-1" id="2vunLhqWxKRPeHTe-euI">
-    <mxGraphModel dx="1158" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3287" dy="1345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="" vertex="1">
+          <mxGeometry height="680" width="680" x="73" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-2" edge="1" parent="1" source="So0jfg-_-XGiYHcbXvTn-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" target="So0jfg-_-XGiYHcbXvTn-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="So0jfg-_-XGiYHcbXvTn-3" parent="1" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.user;" value="" vertex="1">
           <mxGeometry height="170" width="170" x="328" y="50" as="geometry" />
         </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-4" edge="1" parent="1" source="So0jfg-_-XGiYHcbXvTn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" target="evX2xM-acNT0Xl1wvt-Q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="So0jfg-_-XGiYHcbXvTn-4" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;fontSize=30;" value="Client Tier&#xa;[Next.js, Tailwind v4]" vertex="1">
           <mxGeometry height="78" width="342.5" x="242" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=30;" value="API Router" vertex="1">
+          <mxGeometry height="78" width="260" x="283" y="507" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-8" edge="1" parent="1" source="evX2xM-acNT0Xl1wvt-Q-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" target="evX2xM-acNT0Xl1wvt-Q-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-10" edge="1" parent="1" source="evX2xM-acNT0Xl1wvt-Q-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" target="evX2xM-acNT0Xl1wvt-Q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=30;" value="🧩 Search Service" vertex="1">
+          <mxGeometry height="102" width="310" x="258" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=30;" value="🤖 AI Client Adapter" vertex="1">
+          <mxGeometry height="102" width="260" x="284" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-17" edge="1" parent="1" source="evX2xM-acNT0Xl1wvt-Q-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="evX2xM-acNT0Xl1wvt-Q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=30;" value="📝 Intent Extractor&#xa;[Underthesea]" vertex="1">
+          <mxGeometry height="160" width="303" x="800" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-16" edge="1" parent="1" source="evX2xM-acNT0Xl1wvt-Q-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="evX2xM-acNT0Xl1wvt-Q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=30;" value="🔢 Text Vectorizer&#xa;[PhoBERT]" vertex="1">
+          <mxGeometry height="102" width="300" x="800" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-15" edge="1" parent="1" source="evX2xM-acNT0Xl1wvt-Q-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="evX2xM-acNT0Xl1wvt-Q-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);fontSize=30;" value="🏆 Dynamic Ranker&#xa;[LambdaMART / LightFM]" vertex="1">
+          <mxGeometry height="126" width="310" x="800" y="521.5" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-20" edge="1" parent="1" source="evX2xM-acNT0Xl1wvt-Q-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="evX2xM-acNT0Xl1wvt-Q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=30;gradientColor=#7ea6e0;" value="⛅ External API" vertex="1">
+          <mxGeometry height="94" width="260" x="73" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontSize=30;" value="🕸️ Python Web Scraper" vertex="1">
+          <mxGeometry height="102" width="320" x="-320" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-22" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=#cce5ff;strokeColor=#36393d;fontSize=30;" value="🧹 AI Data Cleaner&#xa;[NLP Sentiment &amp; Vector hóa]" vertex="1">
+          <mxGeometry height="140" width="320" x="-320" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-26" edge="1" parent="1" source="evX2xM-acNT0Xl1wvt-Q-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" target="evX2xM-acNT0Xl1wvt-Q-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-23" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=#cce5ff;strokeColor=#36393d;fontSize=30;" value="🗄️ PostgreSQL Database&#xa;[pgvector] " vertex="1">
+          <mxGeometry height="158" width="320" x="-320" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-24" edge="1" parent="1" source="evX2xM-acNT0Xl1wvt-Q-21" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=30;" target="evX2xM-acNT0Xl1wvt-Q-22" value="Raw Data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evX2xM-acNT0Xl1wvt-Q-25" edge="1" parent="1" source="evX2xM-acNT0Xl1wvt-Q-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="evX2xM-acNT0Xl1wvt-Q-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
