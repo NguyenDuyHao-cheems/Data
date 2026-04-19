@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="4MxwXADsTXVAXTKIMdvs">
+    <mxGraphModel dx="984" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Firebase" vertex="1">
+          <mxGeometry height="126" width="588" x="44" y="497" as="geometry" />
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-2" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Backend" vertex="1">
+          <mxGeometry height="104" width="657" x="20" y="319" as="geometry" />
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-3" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Frontend" vertex="1">
+          <mxGeometry height="104" width="593" x="46" y="141" as="geometry" />
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-4" parent="1" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="User" vertex="1">
+          <mxGeometry height="47" width="47" x="354" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-5" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Streamlit UI" vertex="1">
+          <mxGeometry height="54" width="146" x="305" y="166" as="geometry" />
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-6" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="FastAPI Server" vertex="1">
+          <mxGeometry height="54" width="163" x="278" y="344" as="geometry" />
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Firebase Auth" vertex="1">
+          <mxGeometry height="54" width="158" x="146" y="533" as="geometry" />
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-8" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Cloud Firestore" vertex="1">
+          <mxGeometry height="76" width="125" x="464" y="522" as="geometry" />
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-9" edge="1" parent="1" source="LIMYobnT8-xNHl0UpEYM-4" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.61;entryX=0;entryY=0.22;rounded=0;" target="LIMYobnT8-xNHl0UpEYM-5" value="1. Login">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="104" />
+              <mxPoint x="120" y="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-10" edge="1" parent="1" source="LIMYobnT8-xNHl0UpEYM-5" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.77;entryX=0;entryY=0.17;rounded=0;" target="LIMYobnT8-xNHl0UpEYM-6" value="2. POST /auth/login">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="245" />
+              <mxPoint x="120" y="319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-11" edge="1" parent="1" source="LIMYobnT8-xNHl0UpEYM-6" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.83;entryX=0.22;entryY=0;rounded=0;" target="LIMYobnT8-xNHl0UpEYM-7" value="3. Verify Credentials">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="121" y="423" />
+              <mxPoint x="121" y="497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-12" edge="1" parent="1" source="LIMYobnT8-xNHl0UpEYM-7" style="curved=1;startArrow=none;endArrow=block;exitX=0.64;exitY=0;entryX=0.24;entryY=1;rounded=0;" target="LIMYobnT8-xNHl0UpEYM-6" value="4. Return idToken">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="278" y="497" />
+              <mxPoint x="278" y="423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-13" edge="1" parent="1" source="LIMYobnT8-xNHl0UpEYM-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0;entryX=0.76;entryY=1;rounded=0;" target="LIMYobnT8-xNHl0UpEYM-5" value="5. Return Token">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="319" />
+              <mxPoint x="450" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-14" edge="1" parent="1" source="LIMYobnT8-xNHl0UpEYM-4" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.65;entryX=1;entryY=0.14;rounded=0;" target="LIMYobnT8-xNHl0UpEYM-5" value="6. Manage Tasks">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="576" y="104" />
+              <mxPoint x="576" y="141" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-15" edge="1" parent="1" source="LIMYobnT8-xNHl0UpEYM-5" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=1;entryX=0.29;entryY=0;rounded=0;" target="LIMYobnT8-xNHl0UpEYM-6" value="7. API Request + Token">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="293" y="245" />
+              <mxPoint x="293" y="319" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-16" edge="1" parent="1" source="LIMYobnT8-xNHl0UpEYM-6" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=1;entryX=0.03;entryY=0;rounded=0;" target="LIMYobnT8-xNHl0UpEYM-8" value="8. Read/Write Data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="423" />
+              <mxPoint x="430" y="497" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-17" edge="1" parent="1" source="LIMYobnT8-xNHl0UpEYM-8" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=0;entryX=1;entryY=0.86;rounded=0;" target="LIMYobnT8-xNHl0UpEYM-6" value="9. Return Data">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="572" y="497" />
+              <mxPoint x="572" y="423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LIMYobnT8-xNHl0UpEYM-18" edge="1" parent="1" source="LIMYobnT8-xNHl0UpEYM-6" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.13;entryX=1;entryY=0.85;rounded=0;" target="LIMYobnT8-xNHl0UpEYM-5" value="10. Update UI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="576" y="319" />
+              <mxPoint x="576" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
