@@ -40,7 +40,7 @@ Dưới đây là workflow tái sử dụng để chuyển nội dung báo cáo 
 - Không tự sửa kết quả tính toán nếu người dùng không yêu cầu.
 - Nếu công thức Word bị trích xuất thiếu, ưu tiên khôi phục theo ngữ cảnh toán học thay vì bỏ trống.
 - Các kết quả tính toán làm tròn 4 chữ số phải được làm tròn lại 2 chữ số và báo cáo lại cho người dùng.
-
+- Các phép nhân nên dùng \times thay vì \cdot
 **4. Định Dạng Tiêu Đề**
 - Với tiêu đề chương lớn:
   - Dùng căn giữa và in đậm:
